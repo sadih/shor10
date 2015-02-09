@@ -1,0 +1,43 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<header class="hero-unit" id="banner">
+  <div class="container">
+    <h1>Hello Reaktor!</h1>
+    <p class="lead">I'm glad you came for a visit!</p>
+    <img src="http://www.gravatar.com/avatar/1f92695d13e007efe7211e21c2b776fd?s=250" alt="I'm Sadi" style="border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%;">
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Introduction</h1>
+      <p>I am an open minded and customer oriented student, who thrives in an energetic environment filled with smart, motivated and awesome people. I have been working in a startup environment for the past 1,5 years and have been focusing on front-end development. Currently, I am looking for perspective: how the front-end development workflow in single products is carried out in comparison to consultation and multiple concurrent projects. I want to be challenged, your move.</p>
+      <a href="https://drive.google.com/file/d/0B7FMTLOa2bPKNEM2bDIwRjhjQm8/view?usp=sharing" target="_blank">Link to my CV</a>
+
+      <h1 class="page-header">What is this page?</h1>
+      <p>This page was done as part of an exercise behalf of Reaktor. The exercise was part of a job application, and got a bit out of hand.</p>
+      <p>The point is I think a functional product is half done, the other half is functional design.</p>
+      <h2>How the service works:</h2>
+      <p>Write a url on the place below. The service returns a shortened link id to the url you specified.</p>
+      <p>Alternatively you can make a POST-request to /shorten using Content-Type: application/x-www-form-urlencoded and the parameter name "link".</p>
+      <p>If you make a GET-request to /{id}, where the id is what was given to you, the service will redirect to you to the original link.</p>
+      <form action="/shorten" method="post">
+        <div class="col-sm-8">
+          <input type="text" class="form-control input-lg" name="link" placeholder="E.g. www.reaktor.fi" style="margin-top: 20px;">
+        </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-default btn-lg" style="margin-top: 20px;">Shorten the url</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="container">
+      <p>Sadi Hossain | Made with Angular Fullstack v2.0.13 |
+        <a href="https://www.linkedin.com/in/sadihossain" target="_blank">My LinkedIn profile</a> |
+         <a href="https://github.com/sadih" target="_blank">My GitHub profile</a></p>
+  </div>
+</footer>
