@@ -2,4 +2,4 @@
 
 ##Link shortener exercise
 
-Demo at shor10.herokuapp.com
+Demo at <a href="shor10.herokuapp.com" target="_blank">shor10.herokuapp.com</a>
