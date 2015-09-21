@@ -13,8 +13,6 @@ module.exports = function(app) {
     'definitely',
     'hire',
     'me',
-    'to',
-    'Reaktor',
     'after',
     'all',
     'I',
